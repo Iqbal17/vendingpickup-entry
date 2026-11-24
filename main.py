@@ -1,8 +1,8 @@
 """One Line, One Minute: The Vending Machine Pickup Line Contest.
 
-Entry line (59 characters, one line, gate 1-200):
+Entry line (54 characters, one line, gate 1-200):
 
-    I only accept exact change, but for you, I'll make change.
+    I only accept exact change, but you? I'll make change.
 
 DECISION RECORD
 
@@ -43,13 +43,14 @@ D. "You don't need exact change with me -- your smile already paid in
    meaning, nothing for the judge to laugh at. Cut on criterion 3.
 
 E. CHOSEN: "I only accept exact change, but for you, I'll make change."
-   (59 chars)
+   (58 chars -- the writer's "59" was a hand-count slip; the string
+   counted letter by letter is 58)
    Wins because it hits every criterion in order. (1) First-person
    machine voice: "I only accept" is how a machine states its terms.
    (2) Exact change is the machine's own world, not love in general.
    (3) The laugh is a real pun that lands in the last three words:
    "make change" means both "give you your change" and "change myself
-   for you". (4) 59 characters, one breath, nothing tacked on.
+   for you". (4) 58 characters, one breath, nothing tacked on.
    (5) Warm and cheeky -- the machine bends its own rule for this one
    human -- rather than creepy.
 
@@ -61,16 +62,56 @@ any shopkeeper could use, and "I'd" softens the punch into a
 conditional -- the machine sounds like it is hedging.
 
 Pass 2 (final): "I only accept exact change, but for you, I'll make
-change." (59 chars.) "Accept" is machine language -- machines accept
+change." (58 chars.) "Accept" is machine language -- machines accept
 coins, people take them. The comma before "but" puts a beat before the
 turn, and "I'll" is decisive where "I'd" was conditional, so the pun
 now lands cleanly at the very end. One character shorter, and every
 word earns its place.
+
+REVISION PASS (24 Nov 2026)
+
+Honest critique of the chosen line against the judge criteria: the pun
+is the line's whole engine, and it is a good one -- "make change" is
+genuinely machine language with a second, romantic meaning, and it
+lands in the last three words. But two things are weak. First, "but
+for you" is the most generic pickup pivot in the language; any
+stranger in a bar could say "but for you" -- it does no machine work
+and earns nothing (criterion 1). Second, the line has only one
+machine image (exact change); everything else is filler around the
+pun, so if the judge has seen the exact-change pun before, the line
+has nothing left.
+
+Fresh alternatives weighed against the current line:
+
+F. "You don't need exact change -- just press my button and I'll drop
+   everything for you." (86 chars.) Two machine images (button,
+   dropping snacks) and a second meaning on "drop everything", with
+   the turn at the end. Cut: "drop everything" is a familiar idiom
+   doing borrowed work, the setup is longer, and the laugh is softer
+   than the "make change" pun -- the current line wins on criteria 3
+   and 4.
+
+G. "I hum all day for strangers, but you're the first coin that's ever
+   made me light up." (~80 chars.) Warm and machine-voiced (hum,
+   coin, light up), but there is no laugh at all -- a compliment with
+   a machine accent. Cut on criterion 3.
+
+Before/after: the line is kept, with one tightening. Before: "I only
+accept exact change, but for you, I'll make change." (58 chars --
+counted letter by letter; the writer's "59" was a hand-count slip.)
+After: "I only accept exact change, but you? I'll make change."
+(54 chars.) "but for you" becomes "but you?" -- the machine
+addresses the human directly instead of borrowing a bar pickup
+phrase, the question mark adds a beat and a wink before the turn,
+and the pun still lands in the last three words. Four characters
+shorter, nothing lost, and the one generic phrase is gone. The line
+stands because the pun is still the sharpest laugh in the field and
+the voice is now machine from first word to last.
 """
 
 import os
 
-LINE = "I only accept exact change, but for you, I'll make change."
+LINE = "I only accept exact change, but you? I'll make change."
 
 
 def main() -> None:

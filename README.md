@@ -8,9 +8,9 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-brisk-kestrel-93-one-l
 
 ## The pickup line
 
-> I only accept exact change, but for you, I'll make change.
+> I only accept exact change, but you? I'll make change.
 
-59 characters, one line.
+54 characters, one line.
 
 ## How it runs
 
